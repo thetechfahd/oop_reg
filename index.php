@@ -20,20 +20,7 @@
         </div>
 
         <!-- Login Form -->
-        <form>
-        <input type="text" id="login" class="fadeIn second" name="login" placeholder="Login">
-        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
-        <input type="submit" class="fadeIn fourth" value="Log In">
-        </form> 
-        
-        <!-- Login Form -->
-        <form>
-        <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
-        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Email">
-        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
-        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Confirm Password">
-        <input type="submit" class="fadeIn fourth" value="Log In">
-        </form>
+
 
         <!-- Remind Passowrd -->
         <div id="formFooter">
@@ -42,5 +29,6 @@
 
     </div>
     </div>
+    <script src="js/jquery.js"></script>
 </body>
 </html>
