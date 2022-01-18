@@ -21,19 +21,19 @@
         </div>
 
         <!-- Login Form -->
-        <form action="" id="signin_form">
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Login">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
-            <input type="submit" class="fadeIn fourth" value="Log In">
+        <form method="post" action="classes/signin.class.php" id="signin_form">
+            <input type="text" id="login" class="fadeIn second" name="login_username" placeholder="Username">
+            <input type="text" id="password" class="fadeIn third" name="login_password" placeholder="Password">
+            <input type="submit" class="fadeIn fourth" name="signin_submit" value="Log In">
         </form> 
         
         <!-- signup Form -->
-        <form action="" id="signup_form">
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Email">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Confirm Password">
-            <input type="submit" class="fadeIn fourth" value="Log In">
+        <form method="post" action="classes/signup.class.php" id="signup_form">
+            <input type="text" id="login" class="fadeIn second" name="signup_username" placeholder="username">
+            <input type="text" id="password" class="fadeIn third" name="signup_email" placeholder="Email">
+            <input type="text" id="password" class="fadeIn third" name="signup_password" placeholder="Password">
+            <input type="text" id="password" class="fadeIn third" name="signup_passwordb" placeholder="Confirm Password">
+            <input type="submit" class="fadeIn fourth" name="signup_submit" value="Log In">
         </form>
 
         
