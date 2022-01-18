@@ -1,0 +1,3 @@
+
+
+CREATE TABLE `db user oop trial`.`user` ( `id` INT(7) NOT NULL AUTO_INCREMENT ,  `username` VARCHAR(30) NOT NULL ,  `email` VARCHAR(30) NOT NULL ,  `password` VARCHAR(30) NOT NULL ,  `timestamp` TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ,    PRIMARY KEY  (`id`)) ENGINE = InnoDB;
